@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane id="pane" alignment="CENTER" hgap="10.0" prefHeight="377.0" prefWidth="497.9998779296875" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.View">
+  <children>
+    <Pane prefHeight="392.0" prefWidth="488.0" rotate="0.0" style="-fx-background-image:url('../back.jpg;)'" GridPane.columnIndex="0" GridPane.rowIndex="0">
+      <children>
+        <ImageView fitHeight="377.0" fitWidth="496.794402626341" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../back.jpg" />
+          </image>
+        </ImageView>
+        <Button layoutX="118.0" layoutY="54.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="278.0" layoutY="28.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="447.0" layoutY="38.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="324.0" layoutY="216.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="188.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="21.0" layoutY="119.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="92.0" layoutY="207.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="434.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="304.0" layoutY="324.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
+        <Button layoutX="92.0" layoutY="150.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
+        <Button layoutX="350.0" layoutY="100.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="53.0" text="" />
+      </children>
+    </Pane>
+  </children>
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+</GridPane>
