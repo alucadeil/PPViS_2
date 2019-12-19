@@ -11,7 +11,7 @@ import java.io.IOException;
 
 
 public class View{
-    public void FUN() throws IOException {
+    public void draw() throws IOException {
         Stage primaryStage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Модель железной дороги");
@@ -20,9 +20,6 @@ public class View{
     }
 
     public void update() {
-
-    }
-    public void draw() {
 
     }
 

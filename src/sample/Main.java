@@ -18,7 +18,7 @@ public class Main extends Application{
         Inspector inspector = new Inspector();
         View view = new View();
         Station station = new Station();
-        view.FUN();
+        view.draw();
     }
 
     public static void main(String[] args) {

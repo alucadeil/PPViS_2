@@ -21,17 +21,17 @@
             <Image url="@../back.jpg" />
           </image>
         </ImageView>
-        <Button layoutX="118.0" layoutY="54.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="278.0" layoutY="28.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="447.0" layoutY="38.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="324.0" layoutY="216.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="188.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="21.0" layoutY="119.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="92.0" layoutY="207.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="434.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
-        <Button layoutX="304.0" layoutY="324.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
-        <Button layoutX="92.0" layoutY="150.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
-        <Button layoutX="350.0" layoutY="100.0" minWidth="26.0" mnemonicParsing="false" onAction="#draw" opacity="0.2" prefHeight="38.9609375" prefWidth="53.0" text="" />
+        <Button layoutX="278.0" layoutY="28.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="118.0" layoutY="54.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="447.0" layoutY="38.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="324.0" layoutY="216.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="188.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="21.0" layoutY="119.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="92.0" layoutY="207.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="434.0" layoutY="299.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="51.9609375" prefWidth="26.0" text="Button" />
+        <Button layoutX="304.0" layoutY="324.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
+        <Button layoutX="92.0" layoutY="150.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="38.9609375" prefWidth="66.0" text="" />
+        <Button layoutX="350.0" layoutY="100.0" minWidth="26.0" mnemonicParsing="false" opacity="0.2" prefHeight="38.9609375" prefWidth="53.0" text="" />
       </children>
     </Pane>
   </children>
