@@ -13,4 +13,12 @@ public class Depot {
     public void fix_train(Train t) {
 
     }
+
+    public Train getTrain() {
+        return train;
+    }
+
+    public void setTrain(Train train) {
+        this.train = train;
+    }
 }

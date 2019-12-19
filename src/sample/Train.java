@@ -2,7 +2,7 @@ package sample;
 
 public class Train {
 
-    private Route route = new Route();
+    private Route route;
 
     private boolean state;
 
@@ -15,5 +15,13 @@ public class Train {
     }
     public void to_break() {
 
+    }
+
+    public Route getRoute() {
+        return route;
+    }
+
+    public void setRoute(Route route) {
+        this.route = route;
     }
 }

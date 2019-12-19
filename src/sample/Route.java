@@ -3,7 +3,7 @@ package sample;
 public class Route {
     private int current_segmet = -1;
     private boolean active = false;
-    private Segment segment;
+    private Segment segment = new Segment();
 
     public void move() {
 
@@ -32,5 +32,21 @@ public class Route {
 
     public void setCurrent_segmet(int current_segmet) {
         this.current_segmet = current_segmet;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public Segment getSegment() {
+        return segment;
+    }
+
+    public void setSegment(Segment segment) {
+        this.segment = segment;
     }
 }
